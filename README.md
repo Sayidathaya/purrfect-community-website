@@ -1,4 +1,4 @@
-![Banner](https://capsule-render.vercel.app/api?type=waving&height=260&color=0:1a0a2e,50:c97d4e,100:f4a261&text=Purrfect%20Community%20website&fontColor=ffffff&fontSize=46&fontAlignY=38&desc=Website%20Komunitas%20Kucing%20%C2%B7%20PHP%20%C2%B7%20PDO%20%C2%B7%20MySQL&descAlignY=58&animation=fadeIn)
+![Banner](https://capsule-render.vercel.app/api?type=waving&height=260&color=0:1a0a2e,50:c97d4e,100:f4a261&text=Purrfect%20Community%20Website&fontColor=ffffff&fontSize=46&fontAlignY=38&desc=Website%20Komunitas%20Kucing%20%C2%B7%20PHP%20%C2%B7%20PDO%20%C2%B7%20MySQL&descAlignY=58&animation=fadeIn)
 
 [![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
