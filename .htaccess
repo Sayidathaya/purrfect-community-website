@@ -1,10 +1,18 @@
-# Ensure directory requests resolve to index.php
-DirectoryIndex index.php
-
-# (Optional) Keep existing behavior for existing files/dirs; otherwise serve file directly.
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^ - [L]
+Options -Indexes
 
-# If someone hits a path that doesn't exist, return 404 (do not rewrite to index.php)
+# Blok file sensitif
+<FilesMatch "(^\.|\.env|composer\.(json|lock)|.*\.sql|.*\.log)$">
+    Require all denied
+</FilesMatch>
+
+# Blok folder internal
+RewriteRule ^(?:app|config|storage|routes|server|api)/ - [F,L,NC]
+
+# Redirect assets ke public/assets
+RewriteRule ^assets/(.*)$ public/assets/$1 [L]
+
+# Semua request -> public/index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ public/index.php [L]

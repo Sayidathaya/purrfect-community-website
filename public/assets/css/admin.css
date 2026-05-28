@@ -1,0 +1,107 @@
+body {
+  background: #f6f7fb;
+  color: #2d2a32;
+}
+
+.admin-shell {
+  min-height: 100vh;
+  display: flex;
+}
+
+.admin-sidebar {
+  width: 260px;
+  background: #2f2a3f;
+  color: #fff;
+  padding: 24px 18px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.admin-brand {
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin-bottom: 24px;
+}
+
+.admin-brand span {
+  color: #ffd6a5;
+}
+
+.admin-nav a,
+.admin-logout {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  color: #f8f8ff;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.admin-nav a:hover,
+.admin-logout:hover {
+  background: rgba(255, 255, 255, .1);
+  color: #fff;
+}
+
+.admin-main {
+  flex: 1;
+  padding: 28px;
+}
+
+.admin-card {
+  background: #fff;
+  border: 1px solid rgba(47, 42, 63, .08);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(47, 42, 63, .06);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.metric-card {
+  min-height: 118px;
+}
+
+.metric-value {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+textarea.form-control {
+  min-height: 96px;
+}
+
+.admin-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffd6a5;
+  color: #2f2a3f;
+  font-weight: 800;
+}
+
+@media (max-width: 860px) {
+  .admin-shell {
+    display: block;
+  }
+
+  .admin-sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+}

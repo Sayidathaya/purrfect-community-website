@@ -1,0 +1,8 @@
+/storage/logs/*.log
+/public/assets/uploads/*
+!/public/assets/uploads/.gitkeep
+!/public/assets/uploads/cat_photos/
+!/public/assets/uploads/team/
+!/public/assets/uploads/cat_photos/.gitkeep
+!/public/assets/uploads/team/.gitkeep
+.env
