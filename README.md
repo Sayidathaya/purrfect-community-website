@@ -9,9 +9,11 @@
 
 ## LINK HOSTING
 https://purrfect-community.infinityfreeapp.com/
+
+---
+
 https://purrfect-community.infinityfreeapp.com/admin/
-username: admin
-password: admin123
+
 ---
 
 ## 📑 Daftar Isi
